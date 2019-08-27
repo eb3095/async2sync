@@ -1,6 +1,6 @@
 {
   "name": "async2sync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Another async to sync library. Run a callback when all tasks are completed.",
   "main": "index.js",
   "scripts": {
