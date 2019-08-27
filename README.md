@@ -10,13 +10,13 @@ const Task = require('async2sync').Task;
 // Create a new task
 var task = new Task();
 
-// Start some tasks using callbacks/promises
-someTasks.forEach(task => {
-  // Tell the task we added another task
+// Start some jobs using callbacks/promises
+someJobs.forEach(aJob => {
+  // Tell the task we added another job
   task.tasks++;
   
-  task.start().then(result, err => {
-    console.log("Fulfilled task promise");
+  aJob.start().then(result, err => {
+    console.log("Fulfilled job promise");
     
     // Tell the task that one was completed
     task.tick();
@@ -32,6 +32,6 @@ task.callback = doSomething;
 task.wait();
 
 function doSomething() {
-  console.log("All the tasks were completed!");
+  console.log("All the jobs were completed!");
 }
 ```
