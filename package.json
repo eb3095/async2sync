@@ -1,5 +1,5 @@
 {
-  "name": "tasker",
+  "name": "waitingon",
   "version": "1.0.0",
   "description": "Another async to sync library. Run a callback when all tasks are completed.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eb3095/tasker.git"
+    "url": "git+https://github.com/eb3095/waitingon.git"
   },
   "keywords": [
     "async",
@@ -20,7 +20,7 @@
   "author": "eb3095",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eb3095/tasker/issues"
+    "url": "https://github.com/eb3095/waitingon/issues"
   },
-  "homepage": "https://github.com/eb3095/tasker#readme"
+  "homepage": "https://github.com/eb3095/waitingon#readme"
 }
