@@ -1,0 +1,26 @@
+{
+  "name": "tasker",
+  "version": "1.0.0",
+  "description": "Another async to sync library. Run a callback when all tasks are completed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eb3095/tasker.git"
+  },
+  "keywords": [
+    "async",
+    "sync",
+    "task",
+    "waitfor",
+    "wait"
+  ],
+  "author": "eb3095",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eb3095/tasker/issues"
+  },
+  "homepage": "https://github.com/eb3095/tasker#readme"
+}
