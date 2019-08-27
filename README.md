@@ -1,11 +1,11 @@
-# waitingon
+# tasker
 Another async to sync library. Run a callback when all tasks are completed.
 
 ### Usage
 
 ```javascript
 // Require the package
-const Task = require('waitingon').Task;
+const Task = require('tasker').Task;
 
 // Create a new task
 var task = new Task();
