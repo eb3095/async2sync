@@ -16,7 +16,7 @@ someTasks.forEach(task => {
   task.tasks++;
   
   task.start().then(result, err => {
-    console.log("Fulfilled task promise);
+    console.log("Fulfilled task promise");
     
     // Tell the task that one was completed
     task.tick();
